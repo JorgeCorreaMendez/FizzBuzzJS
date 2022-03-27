@@ -1,11 +1,7 @@
 const returnNumber = (number) => number;
 
-const isMultipleOf3 = (number) => {
-  return number % 3 == 0;
+const isMultipleOf = (multiple, number) => {
+  return number % multiple == 0;
 };
 
-const isMultipleOf5 = (number) => {
-  return number % 5 == 0;
-};
-
-module.exports = { returnNumber, isMultipleOf3, isMultipleOf5 };
+module.exports = { returnNumber, isMultipleOf };

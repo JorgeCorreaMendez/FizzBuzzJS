@@ -8,11 +8,11 @@ test("should same number", () => {
 });
 
 test("should be multiple of 3", () => {
-  if(!fizzBuzz.isMultipleOf3(3))
+  if(!fizzBuzz.isMultipleOf(3, 9))
     throw new Error("fuction should be true but got false ")
 })
 
 test("should be multiple of 5", () => {
-  if(!fizzBuzz.isMultipleOf5(5))
+  if(!fizzBuzz.isMultipleOf(5, 10))
     throw new Error("fuction should be true but got false ")
 })
